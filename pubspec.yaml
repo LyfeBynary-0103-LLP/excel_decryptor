@@ -1,0 +1,24 @@
+name: excel_decryptor
+description: A lightweight, pure-Dart library to detect and decrypt password-protected Microsoft Office Excel (.xlsx) and OOXML files.
+version: 1.0.0
+repository: https://github.com/houzeguru/excel_decryptor
+issue_tracker: https://github.com/houzeguru/excel_decryptor/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  crypto: ^3.0.3
+  pointycastle: ^3.7.3
+  xml: ^6.3.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+
+topics:
+  - excel
+  - xlsx
+  - decryptor
+  - ooxml
+  - crypto
