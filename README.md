@@ -1,7 +1,7 @@
 # excel_decryptor
 
 [![pub package](https://img.shields.io/pub/v/excel_decryptor.svg)](https://pub.dev/packages/excel_decryptor)
-[![Dart CI](https://github.com/brainless-coder/excel_decryptor/actions/workflows/test.yml/badge.svg)](https://github.com/brainless-coder/excel_decryptor/actions/workflows/test.yml)
+[![Dart CI](https://github.com/LyfeBynary-0103-LLP/excel_decryptor/actions/workflows/test.yml/badge.svg)](https://github.com/LyfeBynary-0103-LLP/excel_decryptor/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Dart Platforms](https://img.shields.io/badge/Platform-Pure%20Dart%20%7C%20Flutter-blue)](https://pub.dev/packages/excel_decryptor)
 
