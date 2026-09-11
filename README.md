@@ -181,6 +181,20 @@ dart run example/example.dart test/fixtures/sample_protected.xlsx Password123
 
 ---
 
+## Acknowledgements & Prior Art
+
+This package was inspired by and builds upon early concepts from the [`protect`](https://github.com/justkawal/protect) package by [Kawaljeet Singh](https://github.com/justkawal) (MIT License). 
+
+While `protect` served as an initial reference for Office OpenXML Agile encryption in Dart, `excel_decryptor` completely overhauls and modernizes the engine:
+- **100% Pure Dart 3**: Zero native dependencies or deprecated third-party packages, built on audited `crypto` and `pointycastle` primitives.
+- **ECMA-376 Standard Encryption**: Added full support for AES-128-ECB Standard Encryption (Office 2007/2010 and Apache POI).
+- **Core Banking Statement Support**: Added variable spin-count PBKDF key derivation supporting SHA-1, SHA-256, SHA-384, and SHA-512 required for financial and bank statements (SBI, Finacle, etc.).
+- **Dynamic CFB Container Parser**: Rewritten parser supporting both CFB v3 (512-byte) and CFB v4 (4096-byte) containers with MiniFAT and DIFAT chaining.
+- **Fast Password Pre-Validation**: Validates password verifier hashes to reject incorrect passwords in ~20ms before attempting payload decryption.
+
+---
+
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
